@@ -6,12 +6,20 @@ body {
     padding: 0;
     background-color: #FAF3E0;
     font-family: 'Crimson Text', sans-serif;
+    color: #5C3B28;
 }
 
 header {
     display: block;
     text-align: center;
 
+}
+
+p {
+    padding: 10px;
+    margin: auto;
+    border: #5C3B28;
+    color: #5C3B28;
 }
 
 nav {
@@ -72,10 +80,11 @@ a:hover {
 }
 
 footer {
-    background-color: #5C3B28;
+    background-color: #A77249;
     text-transform: uppercase;
     position: fixed;
     bottom: 0px;
     right: 0px;
     align-content: center;
+    min-width: 100%;
 }
