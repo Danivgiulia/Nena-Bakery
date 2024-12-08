@@ -100,6 +100,25 @@ a:hover {
     text-transform: uppercase;
 }
 
+.featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 3;
+    border: solid #5C3B28;
+    gap: 5px;
+    height: 33vh;
+    width: auto;
+}
+
+.featuredimg {
+    height: auto;
+    width: 100%;
+
+}
+
+
+
 footer {
     background-color: #A77249;
     text-transform: uppercase;
