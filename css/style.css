@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 
 body {
     margin: 0;
@@ -9,10 +9,26 @@ body {
     color: #5C3B28;
 }
 
-header {
-    display: block;
-    text-align: center;
+h1 {
+    display: inline;
+    background-color:#DCC5A8;
+    margin: 2rem;
+}
 
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#home {
+    background-image: url(https://images.pexels.com/photos/298217/pexels-photo-298217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: auto;
 }
 
 p {
@@ -41,6 +57,7 @@ nav {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    flex-direction: column;
     padding: 0px;
     margin:20px;
     height: 80vh;
@@ -50,9 +67,9 @@ nav {
 }
 
 .recipe-box {
-    border: solid #5C3B28;
+    border: 5px solid #5C3B28;
     height: 25vh;
-    width: 90vw;
+    width: 100vw;
     background-color: antiquewhite;
     padding: 5px;
     border-radius: 5px;
@@ -77,6 +94,10 @@ a {
 
 a:hover {
     color: #5C3B28;
+}
+
+.allcaps {
+    text-transform: uppercase;
 }
 
 footer {
