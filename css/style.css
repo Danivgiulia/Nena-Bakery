@@ -5,22 +5,23 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FAF3E0;
-    font-family: 'Crimson Text', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
     color: #5C3B28;
+    overflow-x: hidden;
 }
 
 h1 {
     display: inline;
     background-color:#DCC5A8;
-    margin: 2rem;
+    padding: 5px;
+    font-size: 3rem;
 }
 
 header {
     display: flex;
     text-align: center;
     justify-content: center;
-
-
+    align-items: center;
 }
 
 #home {
@@ -59,7 +60,6 @@ nav {
     justify-content: space-around;
     flex-direction: column;
     padding: 0px;
-    margin:20px;
     height: 80vh;
     width: 80vw;
     gap: 0;
@@ -68,11 +68,10 @@ nav {
 
 .recipe-box {
     border: 5px solid #5C3B28;
-    height: 25vh;
+    height: 30vh;
     width: 100vw;
     background-color: antiquewhite;
     padding: 5px;
-    border-radius: 5px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -83,17 +82,29 @@ nav {
     
 }
 
+.recipe-box a {
+    font-size: 3rem;
+}
+
+.recipe-box p {
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-weight: 500;
+    font-size: 3rem;
+}
+
 a {
     text-decoration: none;
     color: #5C3B28;
     text-align: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
     font-weight: 500;
+    padding: 5px;
 }
 
 a:hover {
-    color: #5C3B28;
+    color:antiquewhite;
+    background-color: #5C3B28;
 }
 
 .allcaps {
@@ -117,14 +128,76 @@ a:hover {
 
 }
 
+.background-box {
+    display: flex;
+    flex-direction: column;
+    background-color:#FAF3E0;
+    border: solid #5C3B28;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px;
+    width: 50vw;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    background-color:#FAF3E0;
+    border: solid #5C3B28;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px;
+    width: 50vw;
+    position: relative;
+    left: 45%;
+}
+
+.method {
+    display: flex;
+    flex-direction: column;
+    background-color:#FAF3E0;
+    border: solid #5C3B28;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 25px;
+    width: 50vw;
+}
+
+#choco-chips {
+    padding: 1rem 0;
+    background: url('https://images.services.kitchenstories.io/LHREzCi_pSQdXjKeo-qghcd-f2M=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/A1050-lisa-final.jpg') center center / cover no-repeat fixed;
+    border:solid #5C3B28;
+    min-width: 100%;
+}
+
+#banana-bread {
+    padding: 1rem 0;
+    background: url('https://diethood.com/wp-content/uploads/2011/04/morning-glory-muffin-4.jpg') center center / cover no-repeat fixed;
+    border:solid #5C3B28;
+    min-width: 100%;
+}
+
+#apple-pie {
+    padding: 1rem 0;
+    background: url('https://daddioskitchen.com/wp-content/uploads/2022/11/IMG-2885.jpg') center center / cover no-repeat fixed;
+    border:solid #5C3B28;
+    min-width: 100%;
+}
+
+#vanilla-cake {
+    padding: 1rem 0;
+    background: url('https://assets.bonappetit.com/photos/639cb6ad4faf0da335169c77/1:1/w_2560%2Cc_limit/20221215-1222-SEO-RECIPES-25192%25201-HIRES.jpg') center center / cover no-repeat fixed;
+    border:solid #5C3B28;
+    min-width: 100%;
+    object-fit: contain;
+}
+
 
 
 footer {
     background-color: #A77249;
     text-transform: uppercase;
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
     align-content: center;
     min-width: 100%;
+    height: 50vh;
 }
