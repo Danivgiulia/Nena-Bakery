@@ -1,11 +1,10 @@
-
-@import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+/* Below is all the basic css code used for all the .html pages*/
 
 body {
     margin: 0;
     padding: 0;
     background-color: #FAF3E0;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: #5C3B28;
     overflow-x: hidden;
 }
@@ -15,6 +14,15 @@ h1 {
     background-color:#DCC5A8;
     padding: 5px;
     font-size: 3rem;
+    border-color: #5C3B28;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center;
+    font-size: x-large;
+    margin: 12px;
 }
 
 header {
@@ -24,16 +32,7 @@ header {
     align-items: center;
 }
 
-#home {
-    background-image: url(https://images.pexels.com/photos/298217/pexels-photo-298217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    width: auto;
-}
-
 p {
-    padding: 10px;
     margin: auto;
     border: #5C3B28;
     color: #5C3B28;
@@ -44,15 +43,78 @@ nav {
     color: #5C3B28;
     display: flex;
     align-self: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
     text-decoration: none;
     margin: 0;
     gap:0;
     padding: 0;
+    font-size: xx-large;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #5C3B28;
+    text-align: center;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 5px;
+}
+
+a:hover {
+    color:antiquewhite;
+    background-color: #5C3B28;
+}
+
+.allcaps {
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #A77249;
+    text-transform: uppercase;
+    align-content: center;
+    min-width: 100%;
+    height: 10vh;
+}
+
+/* Below is the following css code for the bakery.html page (homepage)*/
+
+#home {
+    background-image: url(https://images.pexels.com/photos/298217/pexels-photo-298217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: auto;
+}
+
+.about-section {
+    margin: 20px;
+}
+
+.featured {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 3;
+    border: solid #5C3B28;
+    gap: 5px;
+    height: 33vh;
+    width: auto;
+    background-image: url(https://plus.unsplash.com/premium_photo-1670895802275-ed748ced4309?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center center / contain no-repeat;
+}
+
+video {
+    display: flex;
+    justify-content: center
+    margin: 2% 10%;
 
 }
+
+/* Below is the following css code for the recipes.html page*/
 
 #recipes {
     display: flex;
@@ -78,8 +140,6 @@ nav {
     flex-wrap: nowrap;
     justify-content: space-around;
     flex-direction: column;
-    
-    
 }
 
 .recipe-box a {
@@ -87,45 +147,9 @@ nav {
 }
 
 .recipe-box p {
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 3rem;
-}
-
-a {
-    text-decoration: none;
-    color: #5C3B28;
-    text-align: center;
-    justify-content: center;
-    font-family:Georgia, 'Times New Roman', Times, serif
-    font-weight: 500;
-    padding: 5px;
-}
-
-a:hover {
-    color:antiquewhite;
-    background-color: #5C3B28;
-}
-
-.allcaps {
-    text-transform: uppercase;
-}
-
-.featured {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-grow: 3;
-    border: solid #5C3B28;
-    gap: 5px;
-    height: 33vh;
-    width: auto;
-}
-
-.featuredimg {
-    height: auto;
-    width: 100%;
-
 }
 
 .background-box {
@@ -192,12 +216,24 @@ a:hover {
     object-fit: contain;
 }
 
+/* Below is the following css code for the whatscooking.html page*/
 
+#content-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    padding: 5%;
 
-footer {
-    background-color: #A77249;
-    text-transform: uppercase;
-    align-content: center;
-    min-width: 100%;
-    height: 50vh;
+}
+
+fieldset {
+    margin: 0 10%;
+    padding: 5%;
+    text-transform: capitalize;
+}
+
+.your-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
