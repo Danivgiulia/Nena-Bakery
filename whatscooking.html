@@ -7,31 +7,83 @@
     <title>Nena's Bakery</title>
 </head>
 <body>
-    <header>
-
-        <h1>What's Cooking?</h1>
-        
-    </header>
-
-    <section>
 
     <nav>
         <ul><a href="bakery.html">Nena's Story</a></ul>
         <ul><a href="recipes.html">Recipes</a></ul>
         <ul><a href="whatscooking.html">What's Cooking?</a></ul>
     </nav>
-   
-    </section>
+
+    <header id="home">
+
+        <h1>Nena's Bakery</h1>
+        
+    </header>
 
     <div>
-        <footer>
-             <span>Watch Grandma cook on our socials!</span>
 
-             <a href="<!--Instagram Link -->" target="_blank">Instagram</a>
-             <a href="<!--Facebook Link -->" target="_blank">Facebook</a>
-        
-        </footer>
+        <section id="content-form">
+
+            <h2>Get a chance to cook with Grandma Nena!</h2>
+            <p>Exciting News! By filling out this form, you'll be entered for a chance to win a one-on-one virtual baking session with Grandma herself! Learn her secret techniques and share a fun, heartfelt experience together in the kitchen. Don't miss this chance to bake with love—just like Grandma does!</p>
+
+        </section>
+
+    
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <fieldset>
+                <legend>Your Details</legend>
+
+                <div class="your-details">
+                    <div>
+                        <label for="first-name-field">First Name:</label>
+                        <input id="first-name-field" type="text" name="first_name" placeholder="Your first name" required>
+                    </div>
+
+                    <div>
+                        <label for="last-name-field">Last Name:</label>
+                        <input id="last-name-field" type="text" name="last_name" placeholder="Your last name" required>
+                    </div>
+
+                    <div>
+                        <label for="email-field">Email:</label>
+                        <input id="email-field" type="email" name="email" placeholder="Your email address" required>
+                    </div>
+
+                    <div>
+                        <label for="age">Age:</label>
+                        <select id="age" name="age" required>
+                            <option value="under-20">Under 20</option>
+                            <option value="20s">20-29</option>
+                            <option value="30s">30-39</option>
+                            <option value="40s">40-49</option>
+                            <option value="50s">50-59</option>
+                            <option value="60+">60+</option>
+                    </div>
+
+                </div>
+
+            </fieldset>
+                
+            <fieldset>
+                <legend>Your experience</legend>
+                    
+            </fieldset>
+
+        </form>
+
     </div>
+
+ 
+<footer>
+    
+    <span>Watch Grandma cook on our socials!</span>
+
+    <a href="<!--Instagram Link -->" target="_blank">Instagram</a>
+    <a href="<!--Facebook Link -->" target="_blank">Facebook</a>
+
+</footer>
+
 
 </body>
 </html>
