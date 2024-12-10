@@ -11,9 +11,9 @@ body {
 
 h1 {
     display: inline;
-    background-color:#DCC5A8;
+    background-color:#FAF3E0;
     padding: 5px;
-    font-size: 3rem;
+    font-size: 6rem;
     border-color: #5C3B28;
     border-radius: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -39,7 +39,7 @@ p {
 }
 
 nav {
-    background-color: #DCC5A8;
+    background-color: #FAF3E0;
     color: #5C3B28;
     display: flex;
     align-self: center;
@@ -51,6 +51,7 @@ nav {
     gap:0;
     padding: 0;
     font-size: xx-large;
+    height: 10%;
     
 }
 
@@ -74,11 +75,19 @@ a:hover {
 }
 
 footer {
+    display: flex;
     background-color: #A77249;
     text-transform: uppercase;
-    align-content: center;
+    align-items: center;
     min-width: 100%;
     height: 10vh;
+    justify-content: center;
+    color: #FAF3E0;
+}
+
+footer a {
+    color: #FAF3E0;
+    text-decoration: underline;
 }
 
 /* Below is the following css code for the bakery.html page (homepage)*/
@@ -89,28 +98,43 @@ footer {
     background-repeat: no-repeat;
     height: 50vh;
     width: auto;
+    border: solid #5C3B28;
 }
 
-.about-section {
+.p-section {
     margin: 20px;
 }
 
 .featured {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
-    flex-grow: 3;
     border: solid #5C3B28;
     gap: 5px;
-    height: 33vh;
+    height: 20vh;
     width: auto;
-    background-image: url(https://plus.unsplash.com/premium_photo-1670895802275-ed748ced4309?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) center center / contain no-repeat;
+    background: url('https://images.services.kitchenstories.io/LHREzCi_pSQdXjKeo-qghcd-f2M=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/A1050-lisa-final.jpg') center center / cover no-repeat fixed;    align-items: center;
+    align-items: center;
+}
+
+#feature-font-background {
+    background: #FAF3E0;
+}
+
+#feature-a {
+    background-color: #FAF3E0;
+    text-decoration: underline;
+}
+
+#feature-a:hover {
+    background-color: #5C3B28;
+    color:#FAF3E0;
 }
 
 video {
     display: flex;
-    justify-content: center
-    margin: 2% 10%;
+    justify-content: center;
+    margin:2% 10%;
 
 }
 
@@ -172,8 +196,7 @@ video {
     padding: 5px;
     margin: 25px;
     width: 50vw;
-    position: relative;
-    left: 45%;
+    float: right;
 }
 
 .method {
@@ -191,28 +214,28 @@ video {
     padding: 1rem 0;
     background: url('https://images.services.kitchenstories.io/LHREzCi_pSQdXjKeo-qghcd-f2M=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/A1050-lisa-final.jpg') center center / cover no-repeat fixed;
     border:solid #5C3B28;
-    min-width: 100%;
+    width: 100%;
 }
 
 #banana-bread {
     padding: 1rem 0;
     background: url('https://diethood.com/wp-content/uploads/2011/04/morning-glory-muffin-4.jpg') center center / cover no-repeat fixed;
     border:solid #5C3B28;
-    min-width: 100%;
+    width: 100%;
 }
 
 #apple-pie {
     padding: 1rem 0;
     background: url('https://daddioskitchen.com/wp-content/uploads/2022/11/IMG-2885.jpg') center center / cover no-repeat fixed;
     border:solid #5C3B28;
-    min-width: 100%;
+    width: 100%;
 }
 
 #vanilla-cake {
     padding: 1rem 0;
     background: url('https://assets.bonappetit.com/photos/639cb6ad4faf0da335169c77/1:1/w_2560%2Cc_limit/20221215-1222-SEO-RECIPES-25192%25201-HIRES.jpg') center center / cover no-repeat fixed;
     border:solid #5C3B28;
-    min-width: 100%;
+    width: 100%;
     object-fit: contain;
 }
 
