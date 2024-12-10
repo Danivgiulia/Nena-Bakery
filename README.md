@@ -19,5 +19,5 @@ Features
 
 Features to add
 
-- I will be adding the images locally so the run time is faster.
+- I will be adding the images locally so the load time is faster.
 
