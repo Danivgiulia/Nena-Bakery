@@ -15,6 +15,7 @@ Our own story, tips, and tricks for users to read if they want some extra help.
 
 ### The Landing Page
 
+<img width="1512" alt="Image" src="https://github.com/user-attachments/assets/1f737a45-7ea3-4e30-90c6-80e4516422cb" />
 
 
 The landing page features the title of the website infront of a landing page image. Right above it is a navigation bar that hides once you scroll down to the rest of the page.
