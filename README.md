@@ -9,9 +9,10 @@ So as you click on it, you will notice that everything is zoomed in and easy to 
 ## Features
 
 ### Navigation Bar
-Homemade, simple recipes, made easy to follow and simple so as to be accessible for everyone.
-Interactive forms to be able to sign up for competitions and get featured.
-Our own story, tips, and tricks for users to read if they want some extra help.
+
+The navigation bar, which sits at the top of the page and dissapears once users sroll down, contains three links that takes the users to the recipes page and the what's cooking page. 
+
+On my next update I will most like add a burger icon to hide the navigation panel as so the landing page can appear cleaner. 
 
 ### The Landing Page
 
@@ -32,9 +33,25 @@ In the next update of the website I would like to modernize and simplify this se
 
 ### The Recipes Page
 
+<img width="1512" alt="Image" src="https://github.com/user-attachments/assets/0ec9961a-6768-4dbd-aa3c-4107480d1212" />
+
+<br>
+
 The recipes page, similar to the landing page, a background image and a title showing what the page the user is at.
 
+<br>
+
+<img width="1512" alt="Image" src="https://github.com/user-attachments/assets/2987e8f1-6d17-4a9d-897e-241404261a1d" />
+
+<br>
+
 The recipes available to choose are made into giant buttons. I did it this way because my main target audience, as specified before, are a more mature audience, like my own grandmother, most struggle with not knowing how to progress on a webpage or how to get where they want to go to.
+
+<br>
+
+<img width="1512" alt="Image" src="https://github.com/user-attachments/assets/b813f62a-d9e6-4b3a-96d6-a169dd4c4dc4" />
+
+<br>
 
 On my next update I will probably add a feature that when the users mouse hovers over the links to the recipes it will light up so that it is more user friendly.
 
@@ -42,7 +59,17 @@ To add more of an interesting background I decided to make the background image 
 
 ### What's Cooking?
 
+<img width="1075" alt="Image" src="https://github.com/user-attachments/assets/c36cf4f4-3481-4468-91ef-8ddca07ec400" />
+
+
 On the next page there is a form that anyone can complete to be part of a chance to cook with Grandma. It's a simple form that in future updates will be more detailed and ask the user perhaps which recipe they would like to try the most.
+
+## Adaptability
+
+<img width="352" alt="Image" src="https://github.com/user-attachments/assets/0c61e628-7679-4324-82d1-252c8788c682" />
+
+
+The entire webpage is adaptable to any screen size to make it accessible to anyone.
 
 ## Testing
 
@@ -67,3 +94,11 @@ I will be adding the images locally so the load time is faster.
 ## Credits
 
 I did use the insiration and a lot of the instructions on how to build this webpage by following along with the love running website form Code Institute - https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+7/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/ e
+
+
+
+
+
+
+
+
