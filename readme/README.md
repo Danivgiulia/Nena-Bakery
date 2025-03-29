@@ -1,4 +1,4 @@
-#Grandma's Baking Website 
+Grandma's Baking Website 
 
 This project is dedicated to my grandmother, more popularly known in my family as Nena. She has been my role model since I was young and an extraordinary mother figure in my life. She is a reserved person, the only way to get to know her warmth and self-expression is through her cooking and baking. I made this website as a basic layout to keep updating for the rest of my life, filling it with all the recipes her grandmother passed down to her and now to me. 
 
@@ -8,16 +8,18 @@ So as you click on it, you will notice that everything is zoomed in and easy to 
 
 ---
 
-##Features
+Features
 
-###Navigation Bar
+Navigation Bar
 ---
 
 - Homemade, simple recipes, made easy to follow and simple so as to be accessible for everyone.
 - Interactive forms to be able to sign up for competitions and get featured.
 - Our own story, tips, and tricks for users to read if they want some extra help. 
 
-###The Landing Page 
+The Landing Page 
+
+<img width="1512" alt="Image" src="https://github.com/user-attachments/assets/1f737a45-7ea3-4e30-90c6-80e4516422cb" />
 
 The landing page features the title of the website infront of a landing page image. Right above it is a navigation bar that hides once you scroll down to the rest of the page.
 
